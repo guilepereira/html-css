@@ -29,13 +29,15 @@ This is a solution to the [Product preview card component challenge on Frontend 
 -------
 ### Links
 
-Live project [on GitHub](https://guilepereira.github.io/html-css/product-preview-card/)
+- Live project on [GitHub](https://guilepereira.github.io/html-css/product-preview-card/)
 
-Go to [Color Palette](https://www.figma.com/file/ZCy5dgKUNO4yVVAtLaMjyZ/FM-%7C-Product-Preview-Card-%7C-Style-Guide?node-id=0%3A1)
+- Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-using-bem-pWNH_SaSjY)
+
+- Go to [Color Palette](https://www.figma.com/file/ZCy5dgKUNO4yVVAtLaMjyZ/FM-%7C-Product-Preview-Card-%7C-Style-Guide?node-id=0%3A1)
 
 ### Useful resources
 
-Material [Icone Shop Cart](https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Ashopping_cart%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048)
+- Material [Icone Shop Cart](https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Ashopping_cart%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048)
 
 ### Screenshot
 | Desktop | Mobile |
