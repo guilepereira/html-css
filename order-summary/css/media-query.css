@@ -15,6 +15,40 @@
     }
 
     .content {
+        justify-content: space-between;
         padding: 3rem;
+    }
+
+    .content__title {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .content__paragraph {
+        font-size: 1.03rem;
+        line-height: 1.6rem;
+    }
+
+    .plan {
+        padding: 1.5rem;
+        height: 6.125rem;
+    }
+
+    #plan__title {
+        font-size: 1rem;
+    }
+
+    #plan__value {
+        font-size: 1rem;
+    }
+
+    .content__button {
+        height: 3.125rem;
+        font-size: .96rem;
+        margin: 0.6rem 0;
+    }
+
+    .content__link {
+        font-size: .95rem;
     }
 }

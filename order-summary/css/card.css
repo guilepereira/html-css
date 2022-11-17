@@ -3,19 +3,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20.5rem;
-    height: 35.5rem;
+
+    width: 20.5em;
+    height: 35.5em;
+
     background-color: hsl(225, 100%, 98%);
-    border-radius: 1.5rem;
+    border-radius: 1.5em;
+
     order: 1;
     position: absolute;
 }
 
 .card__image {
     width: 100%;
-    border-radius: 1.5rem 1.5rem 0 0;
+    border-radius: 1.5em 1.5em 0 0;
 }
 
 .card__content {
-    height: 25.5rem;
+    height: 25.5em;
 }
