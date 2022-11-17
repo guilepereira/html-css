@@ -1,0 +1,20 @@
+@media screen and (min-width:1440px) {
+    #background_desktop {
+    display: block;
+    align-self: flex-start;
+    }
+
+    #background_mobile {
+        display: none;
+        align-self: flex-start;
+    }
+
+    .card {
+        width: 28.125rem;
+        height: 43.5rem;
+    }
+
+    .content {
+        padding: 3rem;
+    }
+}

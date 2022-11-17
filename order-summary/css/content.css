@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    height: 100%;
+    font-size: 16px;
+}
+
+.content__title {
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.content__paragraph {
+    font-weight: 500;
+    font-size: .94rem;
+    text-align: center;
+    line-height: 1.53rem;
+    color: hsl(224, 23%, 55%);
+    margin: 0 .7rem;
+}
+
+.content__plan {
+    width: 100%;
+    background-color: hsla(225, 100%, 94%, 0.623);
+    border-radius: .8rem;
+}
+
+.content__button {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    height: 3.125rem;
+    border-radius: .8rem;
+    font-size: .95rem;
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    border-style: none;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.content__button:hover {
+    background-color: hsl(245, 88%, 60%);
+}
+
+.content__button:active {
+    background-color: hsl(245, 79%, 42%);
+}
+
+/* Cancel order */
+
+.content__link {
+    text-decoration: none;
+    font-size: .95rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.content__link:hover {
+    color: hsl(245, 79%, 42%);
+}
