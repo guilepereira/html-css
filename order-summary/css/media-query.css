@@ -36,8 +36,8 @@
 
     .plan {
         grid-template-areas:
-        'plan-icon price__title price__title price__title plan-link'
-        'plan-icon price__value price__value price__value plan-link';
+        'plan-icon price__title price__title price__title price__title plan-link'
+        'plan-icon price__value price__value price__value price__value plan-link';
     }
 
     #plan__title {
