@@ -1,27 +1,27 @@
 @media screen and (min-width:1440px) {
     #background_desktop {
-    display: block;
     align-self: flex-start;
+    display: block;
     }
 
     #background_mobile {
-        display: none;
         align-self: flex-start;
+        display: none;
     }
 
     .card {
-        width: 28rem; /* OK */
         height: 43.5rem;
+        width: 28rem;
     }
 
     .content {
         justify-content: space-between;
-        padding: 3rem; /* OK */
+        padding: 3rem;
     }
 
     .card__image {
-        width: 28rem; /* OK */
-        border-radius: 1.25em 1.25em 0 0; /* OK */
+        border-radius: 1.25em 1.25em 0 0;
+        width: 28rem;
     }
 
     .content__title {
@@ -36,9 +36,9 @@
     }
 
     .plan {
-        padding: 1.5rem;
         height: 6.125rem;
         margin: 0;
+        padding: 1.5rem;
     }
 
     .plan {
@@ -60,12 +60,29 @@
     }
 
     .content__button {
-        height: 3.125rem;
         font-size: .96rem;
+        height: 3.125rem;
         margin: 0.6rem 0;
     }
 
     .content__link {
+        font-size: .95rem;
+    }
+
+    .attribution {
+        bottom: 15px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .attribution p {
+        color: hsla(210, 7%, 60%, 0.5);
+        font-size: .95rem;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsla(210, 7%, 60%, 0.5);
         font-size: .95rem;
     }
 }

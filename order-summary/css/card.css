@@ -1,22 +1,22 @@
 .card {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    width: 20.5rem;
-    height: 35.5rem;
-
-    background-color: hsl(225, 100%, 98%);
+    
+    background-color: white;
     border-radius: 1.25em;
 
     order: 1;
     position: absolute;
-}
+
+    width: 20.5rem;
+    height: 35.5rem;
+}    
 
 .card__image {
-    width: 20.5rem;
     border-radius: 1.25em 1.25em 0 0;
+    width: 20.5rem;
 }
 
 .card__content {
