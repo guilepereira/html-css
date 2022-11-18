@@ -1,5 +1,6 @@
 .card {
     align-items: center;
+    box-shadow: 0 2rem 2rem hsl(245, 75%, 52%, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
