@@ -10,13 +10,18 @@
     }
 
     .card {
-        width: 28.125rem;
+        width: 28rem; /* OK */
         height: 43.5rem;
     }
 
     .content {
         justify-content: space-between;
-        padding: 3rem;
+        padding: 3rem; /* OK */
+    }
+
+    .card__image {
+        width: 28rem; /* OK */
+        border-radius: 1.25em 1.25em 0 0; /* OK */
     }
 
     .content__title {
@@ -25,19 +30,21 @@
     }
 
     .content__paragraph {
-        font-size: 1.03rem;
+        font-size: 1.05rem;
         line-height: 1.6rem;
+        margin: 0 1rem;
     }
 
     .plan {
         padding: 1.5rem;
         height: 6.125rem;
+        margin: 0;
     }
 
     .plan {
         grid-template-areas:
-        'plan-icon price__title price__title price__title price__title plan-link'
-        'plan-icon price__value price__value price__value price__value plan-link';
+        'plan-icon price__title price__title price__title price__title price__title price__title plan-link'
+        'plan-icon price__value price__value price__value price__value price__value price__value plan-link';
     }
 
     #plan__title {
@@ -46,6 +53,10 @@
 
     #plan__value {
         font-size: 1rem;
+    }
+
+    #plan__link {
+        font-size: .85rem;
     }
 
     .content__button {
