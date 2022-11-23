@@ -35,15 +35,16 @@ The designs were created to the following widths:
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
 
+
+### BEM Structure
+
 - card
     - card__image
-
     - card__content
-        - content
+        - content (mix)
             - content__title
             - content__paragraph
-            
-    - card__stats
-        - stats
-            - stats__value
-            - stats__product
+        - stats (mix)
+            - stats__group
+                - stats__value
+                - stats__product
