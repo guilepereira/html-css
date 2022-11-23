@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
     body {
         height: 100vh;
         width: 100%;
@@ -50,5 +50,25 @@
     
     .stats__value {
         align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+    :root {
+        font-size: 38%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 370px) {
+    :root {
+        font-size: 50%;
+    }
+}
+
+/* Formato do projeto -> 375x956px */
+
+@media screen and (min-width: 380px) and (max-width: 420px) {
+    :root {
+        font-size: 55%;
     }
 }
