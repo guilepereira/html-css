@@ -1,21 +1,21 @@
 .content {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     height: 21.3rem;
+    justify-content: space-between;
 }
 
 .content__title {
+    color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
     font-size: 2.8rem;
     line-height: 3.2rem;
-    color: hsl(0, 0%, 100%);
 }
 
 .content__paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    font-family: 'Inter', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
 }

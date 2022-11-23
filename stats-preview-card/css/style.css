@@ -12,13 +12,13 @@
 }
 
 body {
-    height: 95.6rem;
-    width: 37.5rem;
-    background-color: hsl(233, 47%, 7%);
-    font-size: 1.5rem; /* Regulariza o tamanho de fonte */
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    font-size: 1.5rem; /* Regulariza o tamanho de fonte */
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
 }
 
 strong {
