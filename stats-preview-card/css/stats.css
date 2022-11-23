@@ -14,14 +14,14 @@
 }
 
 .stats__value {
-    color: hsla(0, 0%, 100%);
+    color: var(--color-heading);
     font-family: 'Inter', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
 }
 
 .stats__product {
-    color: hsla(0, 0%, 100%, 0.6);
+    color: var(--color-stats);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;

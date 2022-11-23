@@ -40,6 +40,7 @@ The designs were created to the following widths:
 
 - card
     - card__image
+        - card__image--overlay
     - card__content
         - content (mix)
             - content__title

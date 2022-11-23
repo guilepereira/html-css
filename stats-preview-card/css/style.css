@@ -8,19 +8,25 @@
 }
 
 :root {
-    font-size: 62.5%; /* Converte o tamanho raiz das fontes para 10px */
+    font-size: 62.5%;
+    --color-accent:hsl(277, 64%, 61%);
+    --color-background:hsl(233, 47%, 7%);
+    --color-card:hsl(244, 38%, 16%);
+    --color-heading:hsl(0, 0%, 100%);
+    --color-paragraph:hsla(0, 0%, 100%, 0.75);
+    --color-stats:hsla(0, 0%, 100%, 0.6);
 }
 
 body {
     align-items: center;
-    background-color: hsl(233, 47%, 7%);
+    background-color: var(--color-background) ;
     display: flex;
-    font-size: 1.5rem; /* Regulariza o tamanho de fonte */
+    font-size: 1.5rem;
     height: 100vh;
     justify-content: center;
     width: 100%;
 }
 
 strong {
-    color: hsl(277, 64%, 61%);
+    color: var(--color-accent);
 }
