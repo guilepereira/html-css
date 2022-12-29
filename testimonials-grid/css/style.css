@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-violet: rgb(117, 65, 200);
+
+    --color-darkgrayishblue: rgb(72, 85, 106);
+    --color-darkblackishblue: rgb(25, 33, 46);
+    --color-white: rgb(255, 255, 255);
+
+    --color-lightgray: rgb(207, 207, 207);
+    --color-lightgrayishblue: rgb(236, 242, 248);
+
+    --color-whitetext: 255, 255, 255;
+    --color-alphadarkgrayishblue: rgba(72, 85, 106, .6);
+    --alpha-75: .75;
+    --alpha-40: .4;
+    --alpha-30: .3;
+}
+
+body {
+    background-color: var(--color-lightgrayishblue);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+main {
+    padding: 4.8rem 0;
+    display: grid;
+    gap: 2.4rem;
+}
+
+.card {
+    width: 32.7rem;
+    border-radius: .7rem;
+    display: grid;
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.card__profile {
+    grid-area: profile;
+    grid-template-columns: 1;
+    margin-bottom: 1.5rem;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(6, [col] 3.2rem);
+    grid-template-rows: repeat(2, [row] auto);
+    gap: 0 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile__photo {
+    grid-column: 1;
+    grid-row: row / span 2;
+    width: 3.2rem;
+    border-radius: 50%;
+    border: solid 2px rgba(var(--color-whitetext), var(--alpha-30));
+}
+
+.profile__name {
+    grid-column: col 2 / span 5;
+    grid-row: 1;
+    font-size: 1.3rem;
+}
+
+.profile__status {
+    grid-column: col 2 / span 5;
+    font-size: 1.1rem;
+}
+
+.card__quote {
+    grid-area: quote;
+    grid-column: col 1;
+    grid-row: row 2;
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.card__testimonial {
+    grid-area: testimonial;
+    grid-column: col 1;
+    grid-row: row 3;
+    margin: 0 1.9rem 0 0;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+}
+
+.a {
+    margin-top: 2.4rem;
+    background: var(--color-violet);
+    color: rgba(var(--color-whitetext));
+    height: 44.4rem;
+}
+
+.a .profile__status {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.a .card__testimonial {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.b {
+    background: var(--color-darkgrayishblue);
+    color: rgba(var(--color-whitetext));
+    height: 24rem;
+}
+
+.b .profile__status {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.b .card__testimonial {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.c {
+    background: var(--color-white);
+    color: var(--color-darkgrayishblue);
+    height: 22.2rem;
+}
+
+.c .profile__status {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.c .card__testimonial {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.d {
+    background: var(--color-darkblackishblue);
+    color: rgba(var(--color-whitetext));
+    height: 38.4rem;
+}
+
+.d .profile__status {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.d .card__testimonial {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.e {
+    background: var(--color-white);
+    color: var(--color-darkgrayishblue);
+    margin-bottom: 2.4rem;
+    height: 43.8rem;
+}
+
+.e .profile__status {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.e .card__testimonial {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.e p.card__testimonial {
+    margin: 0 .5rem 0 0;
+}
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
