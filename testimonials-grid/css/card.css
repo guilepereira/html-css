@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+.card {
+    border-radius: .7rem;
+    display: grid; /* container */
+    grid-template-columns: repeat(1, [col] auto);
+    grid-template-rows: repeat(3, [row] auto);
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.card__profile {
+    grid-column: col 1;
+    grid-row: row 1;
+    margin-bottom: 1.5rem;
+}
+
+.card__quote {
+    grid-column: col 1;
+    grid-row: row 2;
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.card__testimonial {
+    grid-column: col 1;
+    grid-row: row 3;
+    margin: 0 1.9rem 0 0;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width:1200px) and (min-height:600px) {
+    .card {
+        padding: 2.4rem 3rem;
+    }
+}

@@ -1,0 +1,23 @@
+.third {
+    background: var(--color-white);
+    color: var(--color-darkgrayishblue);
+    height: 22.2rem;
+    width: 32.7rem;
+}
+
+.third .profile__status {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.third .card__testimonial {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+@media screen and (min-width:1200px) and (min-height:600px) {
+    .third {
+        width: 25.5rem;
+        height: 26.6rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

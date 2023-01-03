@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(6, [col] 3.2rem);
+    grid-template-rows: repeat(2, [row] auto);
+    gap: 0 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile__photo {
+    grid-column: 1;
+    grid-row: row / span 2;
+    width: 3.2rem;
+    border-radius: 50%;
+    border: solid 2px rgba(var(--color-whitetext), var(--alpha-30));
+}
+
+.profile__name {
+    grid-column: col 2 / span 5;
+    grid-row: 1;
+    font-size: 1.3rem;
+}
+
+.profile__status {
+    grid-column: col 2 / span 5;
+    font-size: 1.1rem;
+}

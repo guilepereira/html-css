@@ -1,0 +1,29 @@
+.fifth {
+    background: var(--color-white);
+    color: var(--color-darkgrayishblue);
+    margin-bottom: 2.4rem;
+    height: 43.8rem;
+    width: 32.7rem;
+}
+
+.fifth .profile__status {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.fifth .card__testimonial {
+    color: var(--color-alphadarkgrayishblue);
+}
+
+.fifth p.card__testimonial {
+    margin: 0 .5rem 0 0;
+}
+
+@media screen and (min-width:1200px) and (min-height:600px) {
+    .fifth {
+        width: 25.5rem;
+        height: 57.2rem;
+        grid-column: 4;
+        grid-row: 1 / span 2;
+        margin-bottom: 0;
+    }
+}

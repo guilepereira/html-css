@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-violet: rgb(117, 65, 200);
+
+    --color-darkgrayishblue: rgb(72, 85, 106);
+    --color-darkblackishblue: rgb(25, 33, 46);
+    --color-white: rgb(255, 255, 255);
+
+    --color-lightgray: rgb(207, 207, 207);
+    --color-lightgrayishblue: rgb(236, 242, 248);
+
+    --color-whitetext: 255, 255, 255;
+    --color-alphadarkgrayishblue: rgba(72, 85, 106, .6);
+    --alpha-75: .75;
+    --alpha-40: .4;
+    --alpha-30: .3;
+}
+
+body {
+    background-color: var(--color-lightgrayishblue);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+    padding: 4.8rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, [col] 32.7rem);
+    grid-template-rows: repeat(5, [row] auto);
+    gap: 2.4rem;
+}
+
+@media screen and (min-width:1200px) and (min-height:600px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main {
+        grid-template-columns: repeat(4, [col] 25.5rem);
+        grid-template-rows: repeat(2, [row] auto);
+        gap: 2.4rem 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */

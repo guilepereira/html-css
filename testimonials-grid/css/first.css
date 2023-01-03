@@ -1,0 +1,27 @@
+.first {
+    margin-top: 2.4rem;
+    background: var(--color-violet);
+    color: rgba(var(--color-whitetext));
+    height: 44.4rem;
+    width: 32.7rem;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.first .profile__status {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+.first .card__testimonial {
+    color: rgba(var(--color-whitetext), var(--alpha-40));
+}
+
+@media screen and (min-width:1200px) and (min-height:600px) {
+    .first {
+        margin-top: 0;
+        width: 54rem;
+        height: 28.2rem;
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+}
