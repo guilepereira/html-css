@@ -1,23 +1,23 @@
-.fourth {
+.four {
     background: var(--color-darkblackishblue);
     color: rgba(var(--color-whitetext));
     height: 38.4rem;
     width: 32.7rem;
 }
 
-.fourth .profile__status {
+.four .profile__status {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-.fourth .card__testimonial {
+.four .card__testimonial {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-@media screen and (min-width:1200px) and (min-height:600px) {
-    .fourth {
+/* @media screen and (min-width:1200px) and (min-height:600px) {
+    .four {
         width: 54rem;
         height: 26.6rem;
         grid-column: 2 / span 2;
         grid-row: 2;
     }
-}
+} */

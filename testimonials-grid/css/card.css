@@ -2,10 +2,10 @@
 
 .card {
     border-radius: .7rem;
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
     display: grid; /* container */
     grid-template-columns: repeat(1, [col] auto);
     grid-template-rows: repeat(3, [row] auto);
-    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
 }
 
 .card__profile {
@@ -29,8 +29,8 @@
     font-size: 1.3rem;
 }
 
-@media screen and (min-width:1200px) and (min-height:600px) {
+/* @media screen and (min-width:1200px) and (min-height:600px) {
     .card {
         padding: 2.4rem 3rem;
     }
-}
+} */

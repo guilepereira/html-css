@@ -1,23 +1,23 @@
-.second {
+.two {
     background: var(--color-darkgrayishblue);
     color: rgba(var(--color-whitetext));
     height: 24rem;
     width: 32.7rem;
 }
 
-.second .profile__status {
+.two .profile__status {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-.second .card__testimonial {
+.two .card__testimonial {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-@media screen and (min-width:1200px) and (min-height:600px) {
-    .second {
+/* @media screen and (min-width:1200px) and (min-height:600px) {
+    .two {
         width: 25.5rem;
         height: 28.2rem;
         grid-column: 3;
         grid-row: 1;
     }
-}
+} */

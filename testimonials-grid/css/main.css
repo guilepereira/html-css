@@ -38,12 +38,12 @@ body {
 main {
     padding: 4.8rem 0;
     display: grid;
-    grid-template-columns: repeat(1, [col] 32.7rem);
+    grid-template-columns: repeat(1, [row] 32.7rem);
     grid-template-rows: repeat(5, [row] auto);
     gap: 2.4rem;
 }
 
-@media screen and (min-width:1200px) and (min-height:600px) {
+/* @media screen and (min-width:1200px) {
     body {
         justify-content: center;
         align-items: center;
@@ -54,7 +54,7 @@ main {
         grid-template-rows: repeat(2, [row] auto);
         gap: 2.4rem 3rem;
     }
-}
+} */
 
 
 

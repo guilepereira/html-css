@@ -1,4 +1,4 @@
-.first {
+.one {
     margin-top: 2.4rem;
     background: var(--color-violet);
     color: rgba(var(--color-whitetext));
@@ -8,20 +8,20 @@
     grid-row: 1;
 }
 
-.first .profile__status {
+.one .profile__status {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-.first .card__testimonial {
+.one .card__testimonial {
     color: rgba(var(--color-whitetext), var(--alpha-40));
 }
 
-@media screen and (min-width:1200px) and (min-height:600px) {
-    .first {
+/* @media screen and (min-width:1200px) and (min-height:600px) {
+    .one {
         margin-top: 0;
         width: 54rem;
         height: 28.2rem;
         grid-column: 1 / span 2;
         grid-row: 1;
     }
-}
+} */
