@@ -2,3 +2,9 @@
     background: var(--color-verydarkcyan);
     border-radius: 0 .8rem .8rem 0;
 }
+
+@media screen and (max-width: 500px) { 
+    .luxury {
+        border-radius: 0 0 .8rem .8rem;
+    }
+}

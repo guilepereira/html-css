@@ -15,24 +15,35 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 1.5rem;
-}
-
-
 body {
     background-color: var(--color-verylightgray);
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main {
-    height: 100vh;
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8.8rem 0;
+    }
+    
+    main {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
 }
 
 /* .attribution {

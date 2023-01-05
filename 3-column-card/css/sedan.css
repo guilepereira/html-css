@@ -2,3 +2,9 @@
     background: var(--color-brightorange);
     border-radius: .8rem 0 0 .8rem;
 }
+
+@media screen and (max-width: 500px) { 
+    .sedan {
+        border-radius: .8rem .8rem 0 0;
+    }
+}
