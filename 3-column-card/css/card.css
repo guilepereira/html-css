@@ -7,12 +7,23 @@
     justify-content: space-between;
 }
 
-.card__title {
+.card__icon {
+    height: 4rem;
+    width: 6.5rem;
+}
 
+.card__title {
+    font-family: 'Big Shoulders Display', 'helvetica', sans-serif;
+    font-size: 4rem;
+    color: var(--color-verylightgray);
+    text-transform: uppercase;
 }
 
 .card__description {
-
+    font-family: 'Lexend Deca', 'Helvetica', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--color-transparentwhite);
 }
 
 .card__button {
