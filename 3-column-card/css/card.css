@@ -2,9 +2,9 @@
     width: 30.7rem;
     height: 50rem;
     padding: 4.8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7.5rem 7.5rem 20.6rem 4.8rem;
 }
 
 .card__icon {
@@ -17,7 +17,6 @@
     font-size: 4rem;
     color: var(--color-verylightgray);
     text-transform: uppercase;
-    margin-top: .8rem;
 }
 
 .card__description {
