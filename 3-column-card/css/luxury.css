@@ -3,6 +3,10 @@
     border-radius: 0 .8rem .8rem 0;
 }
 
+.luxury .card__button {
+    color: var(--color-verydarkcyan);
+}
+
 @media screen and (max-width: 500px) { 
     .luxury {
         border-radius: 0 0 .8rem .8rem;

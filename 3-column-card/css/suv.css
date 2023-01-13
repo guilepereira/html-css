@@ -1,3 +1,7 @@
 .suv {
     background: var(--color-darkcyan);
 }
+
+.suv .card__button {
+    color: var(--color-darkcyan);
+}
